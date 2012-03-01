@@ -6,10 +6,10 @@ def gcd(a, b):
     return a
 
 def lcm(a, b):
-    return a * b / gcd(a, b)
+    return (a * b / gcd(a, b))
 
 def derot_loop_count(rot, alphabet_length):
-    return lcm(rot, alphabet_length) - 1
+    return int((float(lcm(rot_by, 26))/rot_by) - 1)
 
 rot_by = int(sys.argv[1])
 
